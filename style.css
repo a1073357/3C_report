@@ -1,0 +1,627 @@
+h1,h2,h3,h4,h5{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+p,a,input,span,ul,li,textarea{
+    font-family: 'Open Sans', sans-serif
+}
+#intro .jumbotron3{
+    /* vh:整個螢幕的百分之80 */
+    height: 80vh;
+    /* no-repeat:不要重複；center center:x,y軸置中；cover:滿版 */
+    /* 放自己圖片：url(/檔名) */
+    background: url(/img/applehomeinformation.jpg) no-repeat center center /cover;
+    margin-bottom: 0;
+}
+#intro .jumbotron{
+    /* vh:整個螢幕的百分之80 */
+    height: 70vh;
+    /* no-repeat:不要重複；center center:x,y軸置中；cover:滿版 */
+    /* 放自己圖片：url(/檔名) */
+    background: url(/img/asushomeinformation.jpg) no-repeat center center /cover;
+    margin-bottom: 0;
+}
+#intro .jumbotron4{
+    /* vh:整個螢幕的百分之80 */
+    height: 80vh;
+    /* no-repeat:不要重複；center center:x,y軸置中；cover:滿版 */
+    /* 放自己圖片：url(/檔名) */
+    background: url(/img/ipadinformation.jpg) no-repeat center center /cover;
+    margin-bottom: 0;
+}
+#intro .jumbotron1{
+    /* vh:整個螢幕的百分之80 */
+    height: 80vh;
+    /* no-repeat:不要重複；center center:x,y軸置中；cover:滿版 */
+    /* 放自己圖片：url(/檔名) */
+    background: url(/img/220316_iphone13_buy_01.gif) no-repeat center center /cover;
+    margin-bottom: 0;
+}
+#intro .jumbotron2{
+    /* vh:整個螢幕的百分之80 */
+    height: 80vh;
+    /* no-repeat:不要重複；center center:x,y軸置中；cover:滿版 */
+    /* 放自己圖片：url(/檔名) */
+    background: url(/img/macinformation1.jpg) no-repeat center center /cover;
+    margin-bottom: 0;
+}
+#intro h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.btn{
+    background-color: white;
+    color: grey;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+#intro .btn1{
+    border: 1px solid rgb(46, 44, 44);
+    background: rgb(17, 40, 136);
+    color: rgb(255, 242, 0);
+    font-weight: bold;
+    position: relative;
+    top: 200px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-right: 200px;
+}
+#intro .btn4{
+    border: 1px solid rgb(46, 44, 44);
+    background: rgb(17, 40, 136);
+    color: rgb(255, 242, 0);
+    font-weight: bold;
+    position: relative;
+    top: 200px;
+    left: 550px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-right: 200px;
+}
+#intro .btn{
+    border: 1px solid rgb(46, 44, 44);
+    background: rgb(17, 40, 136);
+    color: rgb(255, 242, 0);
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 350px;
+    margin-right: 50px;
+}
+#intro .btn2{
+    border: 1px solid rgb(46, 44, 44);
+    background: rgb(17, 40, 136);
+    color: rgb(255, 242, 0);
+    font-weight: bold;
+    position: relative;
+    top: 170px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    /* margin-top: 400px; */
+    margin-right: 800px;
+}
+h3{
+    font-size: 32px;
+    line-height: 1.5;
+}
+p{
+    color: dimgray;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+#s p{
+    line-height: 2.5;
+}
+p.lead{
+    color: black;
+}
+#intro .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+header{
+    margin-bottom: 50px;
+}
+header nav img{
+    width: 50px;
+    height: 50px;
+}
+header li{
+    margin: 0 25px;
+}
+#second{
+    padding: 80px 0;
+}
+#second img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+#second h3{
+    margin-bottom: 80px;
+}
+#last{
+    padding: 80px 0;
+    /* alpha:透明度 */
+    background-color: rgb(248, 248, 248)
+}
+#last h3{
+    margin-bottom: 80px;
+}
+#last img{
+    width: 100%;
+    height: 300px;
+}
+#last .rwd-map1 img{
+    width: 100%;
+    height: 345px;
+}
+#last .upper{
+    position: relative;
+}
+#last #close{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#last #close1{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#last #close2 .lower{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 150px;
+}
+#last .innertext{
+    position: absolute;
+    bottom: 10px;
+    left: 26px;
+}
+#last .innertext span{
+    background-color: white;
+    opacity: 0.5;
+    padding: 5px 10px;
+    border-radius:20px;
+}
+#last .innertext h4{
+    font-size: 25px;
+    color: wheat;
+    margin-top: 5px;
+}
+#last .lower h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#last .lower span{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 2;
+    text-align: center;
+}
+#last .outer{
+    background-color: white;
+    /* box-shadow：陰影 */
+    /* 8px:模糊程度 */
+    /* alpha:透明度 */
+    margin-bottom: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+/* #last #closea img{
+    width: 100%;
+    height: 500px;
+} */
+#last a{
+    color: black;
+}
+#last a:hover{
+    text-decoration: none;
+}
+
+#last2{
+    padding: 80px 0;
+    /* alpha:透明度 */
+    background-color: rgb(248, 248, 248)
+}
+#last2 h3{
+    margin-bottom: 80px;
+}
+#last2 img{
+    width: 100%;
+    height: 300px;
+}
+#last2 .upper{
+    position: relative;
+}
+#last2 #close{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#last2 #close1{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#last2 .innertext{
+    position: absolute;
+    bottom: 10px;
+    left: 26px;
+}
+#last2 .innertext span{
+    background-color: white;
+    opacity: 0.5;
+    padding: 5px 10px;
+    border-radius:20px;
+}
+#last2 .innertext h4{
+    font-size: 25px;
+    color: wheat;
+    margin-top: 5px;
+}
+#last2 .lower h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#last2 .lower span{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 2;
+    text-align: center;
+}
+#last2 .outer{
+    background-color: white;
+    /* box-shadow：陰影 */
+    /* 8px:模糊程度 */
+    /* alpha:透明度 */
+    margin-bottom: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+#last2 a{
+    color: black;
+}
+#last2 a:hover{
+    text-decoration: none;
+}
+
+#last3{
+    padding: 80px 0;
+    /* alpha:透明度 */
+    background-color: rgb(248, 248, 248)
+}
+#last3 h3{
+    margin-bottom: 80px;
+}
+#last3 img{
+    width: 100%;
+    height: 300px;
+}
+#last3 .upper{
+    position: relative;
+}
+#last3 #close{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#last3 #close1{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#last3 .innertext{
+    position: absolute;
+    bottom: 10px;
+    left: 26px;
+}
+#last3 .innertext span{
+    background-color: white;
+    opacity: 0.5;
+    padding: 5px 10px;
+    border-radius:20px;
+}
+#last3 .innertext h4{
+    font-size: 25px;
+    color: wheat;
+    margin-top: 5px;
+}
+#last3 .lower h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#last3 .lower span{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 2;
+    text-align: center;
+}
+#last3 .outer{
+    background-color: white;
+    /* box-shadow：陰影 */
+    /* 8px:模糊程度 */
+    /* alpha:透明度 */
+    margin-bottom: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+#last3 a{
+    color: black;
+}
+#last3 a:hover{
+    text-decoration: none;
+}
+
+#email{
+    padding: 80px 0;
+}
+#email h3{
+    margin-bottom: 80px;
+}
+#email .btn{
+    margin-top: 10px;
+}
+footer{
+    border-top: 1px solid lightblue;
+    padding: 60px;
+}
+footer img{
+    width: 100%;
+}
+footer h4{
+    margin-bottom: 40px;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+footer li a{
+    color: cadetblue;
+}
+footer a{
+    color: black;
+}
+footer li{
+    margin-bottom: 30px;
+}
+.full-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    background: rgba(0,0,0, .5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.full-screen .text{
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    max-height: 70%;
+    color: aliceblue;
+    padding: 25px;
+    position: relative;
+}
+.full-screen .btn_close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: crimson;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+}
+
+#about h2{
+    width: 960px;
+    text-align: center;
+    margin: auto;
+    font-size: 42px;
+    padding: 20px 0;
+}
+#about p{
+    width: 760px;
+    margin: auto;
+    text-align: center;
+    padding: 5px 0 40px;
+    line-height: 2;
+}
+#last1{
+    padding: 80px 0;
+    /* alpha:透明度 */
+    background-color: rgb(248, 248, 248)
+}
+#last1 h3{
+    margin-bottom: 80px;
+}
+#last1 img{
+    width: 70%;
+    height: 350px;
+}
+#last1 .upper{
+    position: relative;
+}
+#last1 .innertext{
+    position: absolute;
+    bottom: 10px;
+    left: 26px;
+}
+#last1 .innertext span{
+    background-color: white;
+    opacity: 0.5;
+    padding: 5px 10px;
+    border-radius:20px;
+}
+#last1 .innertext h4{
+    font-size: 25px;
+    color: wheat;
+    margin-top: 5px;
+}
+#last1 .lower h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#last1 .lower button{
+    margin-top: 30px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* padding: 20px; */
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+#last1 .lower button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+#last1 .lower button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+#last1 .outer{
+    /* background-color: white; */
+    /* box-shadow：陰影 */
+    /* 8px:模糊程度 */
+    /* alpha:透明度 */
+    margin-bottom: 20px;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.08); */
+}
+#last1 a{
+    color: black;
+}
+#last1 a:hover{
+    text-decoration: none;
+}
+
+.rwd-map {
+    display: block; position: relative;
+    overflow: hidden; height: 0; padding: 0;
+    padding-bottom: 75%;
+}
+/* .rwd-map2 {
+    display: block; position: relative;
+    overflow: hidden; height: 0; padding: 0;
+    padding-bottom:410px;
+} */
+.rwd-map1 {
+    display: block; position: relative;
+    overflow: hidden; height: 0; padding: 0;
+    padding-bottom: 345px;
+}
+.rwd-map iframe {
+    position: absolute;
+    height: 100%; width: 100%;
+    left: 0; top: 0;
+}
+.upper .tab1{
+    background-color: yellow;
+    color: red;
+    padding: 5px 15px;
+    position: absolute;
+    left: 0px;
+}
+
+@media only screen and (max-width:768px){
+    #second img{
+        width: 100%;
+    }
+    #footer img{
+        width: 100%;
+    }
+    #intro .btn1{
+        border: 1px solid rgb(46, 44, 44);
+        background: rgb(17, 40, 136);
+        color: rgb(255, 242, 0);
+        font-weight: bold;
+        position: relative;
+        top: 300px;
+        padding: 10px 25px;
+        border-radius: 50px;
+        /* margin-top: 800px; */
+        margin-right: 150px;
+    }
+
+    #intro .btn{
+        border: 1px solid rgb(46, 44, 44);
+        background: rgb(17, 40, 136);
+        color: rgb(255, 242, 0);
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 50px;
+        margin-top: 450px;
+        margin-right: 50px;
+    }
+    #intro .btn3{
+        border: 1px solid rgb(46, 44, 44);
+        background: rgb(17, 40, 136);
+        color: rgb(255, 242, 0);
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 50px;
+        margin-top: 450px;
+        margin-right: 50px;
+    }
+    #last #close2 .lower{
+        position: relative;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .rwd-map1 {
+        display: block; position: relative;
+        overflow: hidden; height: 0; padding: 0;
+        padding-bottom:425px;
+    }
+    #last .rwd-map1 img{
+        width: 100%;
+        height: 425px;
+    }
+    .rwd-map {
+        display: block; position: relative;
+        overflow: hidden; height: 0; padding: 0;
+        padding-bottom: 450px;
+    }
+}
